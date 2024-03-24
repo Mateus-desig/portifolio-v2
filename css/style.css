@@ -49,9 +49,50 @@
 }
 .containe .body .right {
   color: var(--text-color);
+  width: calc(100% - 180px);
 }
 .containe .body .right .content {
   width: calc(100vw - 185px);
   height: 100vh;
   padding: 40px;
+  overflow: scroll;
+}
+.containe .body .right .content .header {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.containe .body .right .content .header .banner .banner {
+  display: block;
+  width: calc(100vw - 260px);
+  height: 600px;
+  background-image: url("https://images.wallpaperscraft.com/image/single/code_programming_monitor_209719_2560x1080.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.containe .body .right .content .header .me-user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.containe .body .right .content .header .me-user .user {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.containe .body .right .content .header .me-user .info {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-top: 40px;
+}
+.containe .body .right .content .header .me-user .info .name {
+  font-size: 40px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

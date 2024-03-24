@@ -61,12 +61,65 @@
 
         .right {
             color: var(--text-color);
+            width: calc(100% - 180px);
             //border: 1px solid red;
 
             .content {
                 width: calc(100vw - 185px);
                 height: 100vh;
                 padding: 40px;
+                overflow: scroll;
+
+                .header {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+
+                    .banner {
+                        
+                        .banner {
+                            display: block;
+                            width: calc(100vw - 260px);
+                            height: 600px;
+                            background-image: url("https://images.wallpaperscraft.com/image/single/code_programming_monitor_209719_2560x1080.jpg");
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 10px;
+                        }
+
+                    }
+
+                    .me-user {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+
+                        .user {
+                            width: 200px;
+                            height: 200px;
+                            border-radius: 100px;
+                        }
+
+                        .info {
+                            user-select: none;
+                            margin-top: 40px;
+
+                            .name {
+                                font-size: 40px;
+                                font-weight: bold;
+                            }
+
+                        }
+
+                    }
+
+                }
+
             }
 
         }
