@@ -1,7 +1,8 @@
 .containe {
 
-    .body {
+    .body-ct {
         display: flex;
+        font-size: 16px;
 
         .left {
             color: var(--text-color);
@@ -70,13 +71,22 @@
                 padding: 40px;
                 overflow: scroll;
 
+                // Card efect.
+                .card-stl{
+                    background-color: var(--primary-color);
+                    padding: 20px;
+                    border-radius: 10px;
+                    margin-top: 40px;
+                }
+
+                // Header.    
                 .header {
                     position: relative;
                     display: flex;
                     align-items: center;
 
                     .banner {
-                        
+
                         .banner {
                             display: block;
                             width: calc(100vw - 260px);
@@ -97,7 +107,7 @@
                         position: absolute;
                         top: 50%;
                         left: 50%;
-                        transform: translate(-50%,-50%);
+                        transform: translate(-50%, -50%);
 
                         .user {
                             width: 200px;
@@ -114,6 +124,29 @@
                                 font-weight: bold;
                             }
 
+                        }
+
+                    }
+
+                }
+
+                // Abauth.
+                .abauth {
+
+                    .main-ti-abth{
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+
+                    .text-bth {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 20px;
+
+                        p {
+                            width: 48%;
+                            //border: 1px solid red;
+                            line-height: 1.5;
                         }
 
                     }

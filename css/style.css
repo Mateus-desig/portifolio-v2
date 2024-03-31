@@ -1,26 +1,27 @@
-.containe .body {
+.containe .body-ct {
   display: flex;
+  font-size: 16px;
 }
-.containe .body .left {
+.containe .body-ct .left {
   color: var(--text-color);
   background-color: var(--modal-color);
   width: 180px;
   height: 100vh;
 }
-.containe .body .left .side {
+.containe .body-ct .left .side {
   display: flex;
   flex-direction: column;
 }
-.containe .body .left .side .top-side {
+.containe .body-ct .left .side .top-side {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.containe .body .left .side .top-side .user {
+.containe .body-ct .left .side .top-side .user {
   margin-bottom: 50px;
   padding: 40px;
 }
-.containe .body .left .side .top-side .user img {
+.containe .body-ct .left .side .top-side .user img {
   width: 100px;
   height: 100px;
   border-radius: 100px;
@@ -29,13 +30,13 @@
      -moz-user-select: none;
           user-select: none;
 }
-.containe .body .left .side .cont-items {
+.containe .body-ct .left .side .cont-items {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.containe .body .left .side .cont-items .item-side {
+.containe .body-ct .left .side .cont-items .item-side {
   text-align: center;
   font-size: 18px;
   -webkit-user-select: none;
@@ -47,22 +48,28 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.containe .body .right {
+.containe .body-ct .right {
   color: var(--text-color);
   width: calc(100% - 180px);
 }
-.containe .body .right .content {
+.containe .body-ct .right .content {
   width: calc(100vw - 185px);
   height: 100vh;
   padding: 40px;
   overflow: scroll;
 }
-.containe .body .right .content .header {
+.containe .body-ct .right .content .card-stl {
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.containe .body-ct .right .content .header {
   position: relative;
   display: flex;
   align-items: center;
 }
-.containe .body .right .content .header .banner .banner {
+.containe .body-ct .right .content .header .banner .banner {
   display: block;
   width: calc(100vw - 260px);
   height: 600px;
@@ -72,7 +79,7 @@
   background-size: cover;
   border-radius: 10px;
 }
-.containe .body .right .content .header .me-user {
+.containe .body-ct .right .content .header .me-user {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -81,18 +88,31 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.containe .body .right .content .header .me-user .user {
+.containe .body-ct .right .content .header .me-user .user {
   width: 200px;
   height: 200px;
   border-radius: 100px;
 }
-.containe .body .right .content .header .me-user .info {
+.containe .body-ct .right .content .header .me-user .info {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
   margin-top: 40px;
 }
-.containe .body .right .content .header .me-user .info .name {
+.containe .body-ct .right .content .header .me-user .info .name {
   font-size: 40px;
   font-weight: bold;
+}
+.containe .body-ct .right .content .abauth .main-ti-abth {
+  font-size: 30px;
+  font-weight: bold;
+}
+.containe .body-ct .right .content .abauth .text-bth {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.containe .body-ct .right .content .abauth .text-bth p {
+  width: 48%;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
