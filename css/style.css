@@ -50,7 +50,6 @@
 }
 .containe .body-ct .right {
   color: var(--text-color);
-  width: calc(100% - 180px);
 }
 .containe .body-ct .right .content {
   width: calc(100vw - 185px);
@@ -105,6 +104,9 @@
 }
 .containe .body-ct .right .content .abauth .main-ti-abth {
   font-size: 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   font-weight: bold;
 }
 .containe .body-ct .right .content .abauth .text-bth {
@@ -115,4 +117,124 @@
 .containe .body-ct .right .content .abauth .text-bth p {
   width: 48%;
   line-height: 1.5;
+}
+.containe .body-ct .right .content .services .svc-title {
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-bottom: 30px;
+}
+.containe .body-ct .right .content .services .list-services {
+  display: flex;
+  flex-direction: column;
+}
+.containe .body-ct .right .content .services .list-services .group1,
+.containe .body-ct .right .content .services .list-services .group2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containe .body-ct .right .content .services .list-services .group1:last-child,
+.containe .body-ct .right .content .services .list-services .group2:last-child {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.containe .body-ct .right .content .services .list-services .group1 .service--1,
+.containe .body-ct .right .content .services .list-services .group1 .service--2,
+.containe .body-ct .right .content .services .list-services .group1 .service--3,
+.containe .body-ct .right .content .services .list-services .group2 .service--1,
+.containe .body-ct .right .content .services .list-services .group2 .service--2,
+.containe .body-ct .right .content .services .list-services .group2 .service--3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 230px;
+}
+.containe .body-ct .right .content .services .list-services .group1 .service--1 img,
+.containe .body-ct .right .content .services .list-services .group1 .service--2 img,
+.containe .body-ct .right .content .services .list-services .group1 .service--3 img,
+.containe .body-ct .right .content .services .list-services .group2 .service--1 img,
+.containe .body-ct .right .content .services .list-services .group2 .service--2 img,
+.containe .body-ct .right .content .services .list-services .group2 .service--3 img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.containe .body-ct .right .content .services .list-services .group1 .service--1 span,
+.containe .body-ct .right .content .services .list-services .group1 .service--2 span,
+.containe .body-ct .right .content .services .list-services .group1 .service--3 span,
+.containe .body-ct .right .content .services .list-services .group2 .service--1 span,
+.containe .body-ct .right .content .services .list-services .group2 .service--2 span,
+.containe .body-ct .right .content .services .list-services .group2 .service--3 span {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.containe .body-ct .right .content .services .list-services .group1 .service--1 p,
+.containe .body-ct .right .content .services .list-services .group1 .service--2 p,
+.containe .body-ct .right .content .services .list-services .group1 .service--3 p,
+.containe .body-ct .right .content .services .list-services .group2 .service--1 p,
+.containe .body-ct .right .content .services .list-services .group2 .service--2 p,
+.containe .body-ct .right .content .services .list-services .group2 .service--3 p {
+  font-size: 16px;
+}
+.containe .body-ct .right .content .skils .skl-title {
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-bottom: 30px;
+}
+.containe .body-ct .right .content .skils .skills-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.containe .body-ct .right .content .skils .skills-list .skill {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.containe .body-ct .right .content .skils .skills-list .skill img {
+  width: 60px;
+  height: 60px;
+}
+.containe .body-ct .right .content .experience .ex-title {
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-bottom: 30px;
+}
+.containe .body-ct .right .content .experience .content-exp {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+.containe .body-ct .right .content .experience .content-exp:last-child {
+  margin-top: 30px;
+}
+.containe .body-ct .right .content .experience .content-exp h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.containe .body-ct .right .content .experience .content-exp p {
+  margin-bottom: 10px;
+}
+.containe .body-ct .right .content .experience .content-exp ul {
+  list-style: none;
+}
+.containe .body-ct .right .content .experience .content-exp ul li {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

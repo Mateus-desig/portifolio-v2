@@ -62,7 +62,7 @@
 
         .right {
             color: var(--text-color);
-            width: calc(100% - 180px);
+            // width: calc(100% - 500px);
             //border: 1px solid red;
 
             .content {
@@ -72,7 +72,7 @@
                 overflow: scroll;
 
                 // Card efect.
-                .card-stl{
+                .card-stl {
                     background-color: var(--primary-color);
                     padding: 20px;
                     border-radius: 10px;
@@ -133,8 +133,9 @@
                 // Abauth.
                 .abauth {
 
-                    .main-ti-abth{
+                    .main-ti-abth {
                         font-size: 30px;
+                        user-select: none;
                         font-weight: bold;
                     }
 
@@ -147,6 +148,140 @@
                             width: 48%;
                             //border: 1px solid red;
                             line-height: 1.5;
+                        }
+
+                    }
+
+                }
+
+                // Serviços.
+                .services {
+
+                    .svc-title {
+                        font-size: 30px;
+                        font-weight: bold;
+                        user-select: none;
+                        margin-bottom: 30px;
+                    }
+
+                    .list-services {
+                        display: flex;
+                        flex-direction: column;
+
+                        .group1,
+                        .group2 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            &:last-child {
+                                margin-top: 60px;
+                                margin-bottom: 20px;
+                            }
+
+                            .service--1,
+                            .service--2,
+                            .service--3 {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                text-align: center;
+                                width: 230px;
+
+                                img {
+                                    width: 100px;
+                                    height: 100px;
+                                    margin-bottom: 20px;
+                                    pointer-events: none;
+                                    user-select: none;
+                                }
+
+                                span {
+                                    font-size: 18px;
+                                    margin-bottom: 8px;
+                                    font-weight: bold;
+                                }
+
+                                p {
+                                    font-size: 16px;
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                // Habilidades.
+                .skils {
+
+                    .skl-title {
+                        font-size: 30px;
+                        font-weight: bold;
+                        user-select: none;
+                        margin-bottom: 30px;
+                    }
+
+                    .skills-list {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+
+                        .skill {
+                            pointer-events: none;
+                            user-select: none;
+
+                            img {
+                                width: 60px;
+                                height: 60px;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                // Experiência.
+                .experience {
+
+                    .ex-title {
+                        font-size: 30px;
+                        font-weight: bold;
+                        user-select: none;
+                        margin-bottom: 30px;
+                    }
+
+                    .content-exp {
+                        background-color: var(--background-color);
+                        border-radius: 10px;
+                        padding: 20px;
+
+                        &:last-child {
+                            margin-top: 30px;
+                        }
+
+                        h3 {
+                            font-size: 18px;
+                            margin-bottom: 10px;
+                        }
+
+                        p {
+                            margin-bottom: 10px;
+
+                        }
+
+                        ul {
+                            list-style: none;
+
+                            li {
+                                margin-top: 10px;
+
+                            }
+
                         }
 
                     }
